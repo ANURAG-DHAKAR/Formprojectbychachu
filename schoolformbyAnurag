@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Document</title>
+  <style>  
+img {
+     width: 90px;
+     height: 84px;
+     margin-top: 9px;
+     margin-left: 100px;
+ }
+
+ label {
+     margin-right: 10px;
+     font-size:14px;
+     font-weight: ;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+ }
+
+ input {
+     margin-bottom: 5px;
+     margin-right:  25px;   
+     font-size: 15px;
+     margin-top: 15px;
+ }
+
+ p {
+     font-size: 18px;
+     margin-top: -5px;
+ }
+
+ body {
+     background: white;
+     border: 1px solid black;
+
+ }
+
+ header {
+
+     width: 700px;
+     font-size: 28px;
+     text-align: center;
+     margin-left: 300px;
+     margin-top: -70px;
+     font-weight: bolder;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;                  
+ }
+
+ h1 {
+     text-align: center;
+     margin-left: 490px;
+     background-color: rgb(11, 9, 14);
+     color: white;
+     font-size: x-large;
+     width: 370px;
+     border-radius: 12px;
+ }
+
+ legend {
+     text-align: center;
+     background-color: rgb(11, 9, 14);
+     color: white;
+     font-size: x-large;
+     width: 370px;
+     border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ fieldset {
+     margin-bottom: 15px;
+ }
+
+ .ONLY {
+     font-size: 25px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-left: 50px;
+     margin-right: 90px;
+     font-weight: ;
+ } 
+ div{
+    font-size: 12px;
+ }
+ th{
+    display: flex;
+      align-items: center;
+}
+
+ li{
+    font-size: 17px;
+    
+}
+.formabc{
+
+    display:flex;
+    flex-direction: row ;
+}
+
+.form-row {
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.signature-row{
+display: flex;
+justify-content: space-between;
+}
+.note{ }
+</style>
+</head>
+
+<body>
+
+  <form>
+    <tr>
+      <td><img src="WhatsApp Image 2025-07-07 at 12.38.19 (1).jpeg"></td>
+    </tr>
+    <header> CRYSTAL ACADEMY PUBLIC SCHOOL <p>Address: VILL BADHERI
+        RAJPUTAN POST BHARAPUR BHOURI 247667</p>
+    </header>
+    <div class="form-container">
+
+      <fieldset>
+        <legend>REGESTRATION FORM</legend>
+        <div>
+          <label for="form no.">Form No. </label>
+          <input type="text" size="48">
+          <span class="ONLY">ONLY FOR OFFICE </span>
+          <label for="Session">For Seson</label>
+          <input type="text" size="36">
+        </div>
+        <div class="formabc">
+          <label style="text-align: center;">
+            <table>
+              <th>
+                <div>पंजीकरण संख्या<br>
+                  <span>Registration Number</span>
+                </div>
+                <input type="text" size="1">
+              </th>
+            </table>
+          </label>
+          <label>
+            <table>
+              <th>
+                <div>प्रवेश स्वीकृति दिनांक <br> <span>Admission Confirm Dt</span>
+                </div>
+                <input type="text" size="1">
+              </th>
+            </table>
+          </label>
+          <label>
+            <table>
+              <th>
+                <div>विद्यार्थी पंजीयन सं. <br> <span>SR No.</span>
+                </div>
+                <input type="text" size="1">
+              </th>
+            </table>
+          </label>
+          <label>
+            <table>
+              <th>
+                <div>प्रवेश की कक्षा <br> <span>Admn. Class</span>
+                </div>
+                <input type="text" size="1">
+              </th>
+            </table>
+          </label>
+          <label>
+            <table>
+              <th>
+                <div>विषय क्षेत्र <br> <span>Subject Stream</span>
+                </div>
+                <input type="text" size="1">
+              </th>
+            </table>
+          </label>
+          <label>
+            <table>
+              <th>
+                <div>प्रवेश स्वीकृति दिनांक <br> <span>Admission Confirm Dt</span>
+                </div>
+                <input type="text" size="1">
+              </th>
+            </table>
+          </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>STUDENT DETAILS</legend>
+        <div class="form-row">
+          <label>विद्यार्थी का नाम<br>Student Name</label>
+          <input type="text" size="50">
+          <label> लिंग<br>Gender</label>
+          <input type="text" size="78">
+        </div>
+
+        <div class="form-row">
+          <label>पिता का नाम<br>Father Name</label>
+          <input type="text" size="50">
+          <label>माता का नाम<br>Mother Name</label>
+          <input type="text" size="74">
+        </div>
+
+        <div class="form-row">
+          <label>स्थानीय पता<br>Local Address</label>
+          <input type="text" size="143" style="width: ;">
+        </div>
+
+        <div class="form-row">
+          <label>मोबाइल नम्बर<br>Phone Number</label>
+          <input size="50" type="text">
+          <label> मोबाइल नम्बर <br>Alternet Phone Number</label>
+          <input type="text" size="65">
+        </div>
+
+        <div class="form-row">
+          <label>जन्म तिथि<br>Date of Birth</label>
+          <input type="text" size="52">
+          <label>धर्म<br>Religion</label>
+          <input type="text" size="76">
+        </div>
+
+        <div class="form-row">
+          <label>जाति<br>Caste</label>
+          <input type="text" size="59">
+          <label>जाति वर्ग<br>Category</label>
+          <input type="text" size="73">
+        </div>
+
+        <div class="form-row">
+          <label>विद्यार्थी आधार संख्या<br>Student Aadhar No.</label>
+          <input type="text" size="46">
+          <label>विद्यार्थी यू-डाइस संख्या<br>Student PEN No.</label>
+          <input type="text" size="67">
+        </div>
+
+        <div class="form-row">
+          <label>पूर्व में अध्ययनरत विद्यालय<br>Previous School</label>
+          <input type="text" size="134">
+        </div>
+
+        <div class="form-row">
+          <label>पूर्व विद्यालय कक्षा<br>Class & Section</label>
+          <input type="text" size="50">
+          <label>अंतिम कक्षा परिणाम<br>Last Class Status</label>
+          <input type="text" size="67">
+        </div>
+
+        <div class="form-row">
+          <label>पूर्व विद्यालय टी.सी. उपलब्ध<br>TC Submitted</label>
+          <input type="text" size="133">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>ENTRANCE EXAM DETAILS</legend>
+        <div class="form-row">
+          <label for="">कक्षा जिसमें प्रवेश चाहिए<br>Desired Adm. Class</label>
+          <input type="text" size="55">
+          <label for="">वर्ग / विषय समूह<br>Subject Group</label>
+          <input type="text" size="59">
+          <label for="">प्रवेश परीक्षा तिथि<br>Entrance Test Date</label>
+          <input type="text" size="58">
+          <label>प्रवेश परीक्षा समय<br>Entrance Test Time</label>
+          <input type="text" size="57">
+
+
+        </div>
+        <div class="form-row">
+          <label for="">परीक्षा विषय<br>Test Subjects</label>
+          <input type="text" size="142">
+          <label for="">रजिस्ट्रेशन शुल्क<br>Registration Fees</label>
+          <input type="text" size="34">
+          <label for="">रसीद संख्या<br>Receipt No.</label>
+          <input type="text" size="34">
+          <label for="">रसीद दिनांक<br>Receipt Date</label>
+          <input type="text" size="35">
+        </div>
+
+
+
+        <h2>NOTE <br>नोट :-</h2>
+        <ol class="note">
+
+          <li> प्रवेश परीक्षा का समय दो घंटे रहेगा। <br>Time of Entrance examination will be two hours.</li>
+          <li>रजिस्ट्रेशन फॉर्म जमा करने का अर्थ यह नहीं है कि प्रवेश हो गया है।<br>Submission of the registration form
+            does not mean that admission has been completed.</li>
+          <li>प्रवेश परीक्षा होने की स्थिति में परिणाम परीक्षा के परिणाम अनुसार अलग से दी जायेगी।<br> Information about
+            confirmation of admission will be given separately according to the result of the extrance examination.</li>
+          <li>आधार कार्ड की फोटोकॉपी (Photocopy) लगाना आवश्यक है। <br>It is necessary to attach photocopy of Aadhar.
+            Card.</li>
+        </ol>
+        <div class="form-row
+      ">
+          <label for="">फॉर्म जमा तिथि एवं समय<br>Form Deposit Date and Time</label>
+          <input type="text">
+        </div>
+        <div class="signature-row">
+          <p>Sig. Parents</p>
+          <p>Sig. - Office / Principal</p>
+        </div>
+
+      </fieldset>
+    </div>
+  </Form>
+
+</body>
+
+</html>
